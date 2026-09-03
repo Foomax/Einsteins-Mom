@@ -1,0 +1,22 @@
+# Model weights — never commit
+*.gguf
+*.safetensors
+*.bin
+*.pt
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Run outputs
+results/*/checkpoints/
+results/*/activations/
+
+# Local
+.direnv/
+.env
+*.sqlite
+*.db
+._*
+.DS_Store
